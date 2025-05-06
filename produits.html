@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Produits | Quincaillerie Prestige</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Quincaillerie Prestige</h1>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav id="nav">
+        <a href="index.html">Accueil</a>
+        <a href="equipe.html">Équipe</a>
+        <a href="produits.html">Produits</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <section class="section-produits">
+    <h2>Nos Produits</h2>
+    <p>Découvrez notre sélection d’outils et matériaux professionnels.</p>
+  </section>
+  
+
+<section class="bop">
+  <h2>Outillage</h2>
+  <div class="grille">
+    <div class="carte-produit">
+      <img src="Image/out.jpg" alt="Outils">
+      <p>Perceuses, marteaux, tournevis...</p>
+    </div>
+  </div>
+</section>
+
+<section class="bay">
+  <h2>Plomberie</h2>
+  <div class="grille">
+    <div class="carte-produit">
+      <img src="image/plom.jpg" alt="Plomberie">
+      <p>Tuyaux, robinets, raccords...</p>
+    </div>
+  </div>
+</section>
+
+<section class="soy">
+  <h2>Électricité</h2>
+  <div class="grille">
+    <div class="carte-produit">
+      <img src="Image/elec.jpg" alt="Électricité">
+      <p>Fils, interrupteurs, prises...</p>
+    </div>
+  </div>
+</section>
+
+<section class="fa">
+  <h2>Peinture & Décoration</h2>
+  <div class="grille">
+    <div class="carte-produit">
+      <img src="Image/peintre.jpg" alt="Peinture">
+      <p>Peintures, pinceaux, rouleaux...</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Quincaillerie Prestige by Pape Seck</p>
+</footer>
+
+
+<!-- Javascript -->
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>

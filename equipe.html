@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Équipe et Expertise | Quincaillerie Prestige</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Quincaillerie Prestige</h1>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav id="nav">
+        <a href="index.html">Accueil</a>
+        <a href="equipe.html">Équipe</a>
+        <a href="produits.html">Produits</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+
+<section class="moi">
+  <h2>Notre Équipe</h2>
+  <div class="grille">
+    <div class="carte-produit">
+      <img src="Image/equipe1.jpeg" alt="Gérant">
+      <h3>Robert, Marie et Rebeka - Gérant</h3>
+      <p>Gérant de la quincaillerie, 20 ans d'expérience dans le secteur.</p>
+    </div>
+    <div class="carte-produit">
+      <img src="Image/equipe2.jpg" alt="Conseiller technique">
+      <h3>Awa Sène</h3>
+      <p>Conseillère technique spécialisée en maçonnerie et peinture.</p>
+    </div>
+    <div class="carte-produit">
+      <img src="Image/equipe3.webp">
+      <h3>Mamadou Ndiaye</h3>
+      <p>Livreur rapide et efficace sur toute la région.</p>
+    </div>
+  </div>
+</section>
+
+<section class="pa">
+  <h2>Notre Expertise</h2>
+  <ul>
+    <li>Maçonnerie</li>
+    <li>Électricité</li>
+    <li>Décoration intérieure</li>
+  </ul>
+</section>
+
+<section class="pi">
+  <h2>Nos Valeurs</h2>
+  <p>Nous nous engageons à fournir des produits de qualité, à respecter l’environnement et à assurer la satisfaction totale de nos clients.</p>
+</section>
+
+<section class="plair">
+  <h2>Mot du Gérant</h2>
+  <img src="Image/equipe1.jpeg" alt="Gérant" style="width:500px; border-radius:50%;">
+  <p>Bienvenue sur notre site ! Notre équipe est à votre service pour vous accompagner dans tous vos projets.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Quincaillerie Prestige by Pape Seck</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>

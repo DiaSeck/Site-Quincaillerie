@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil | Quincaillerie Prestige</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Quincaillerie Prestige</h1>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav id="nav">
+        <a href="index.html">Accueil</a>
+        <a href="equipe.html">Équipe</a>
+        <a href="produits.html">Produits</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+
+  <section class="hero">
+    <h1 class="titre-accueil">Bienvenue chez Quincaillerie Pro</h1>
+    <!-- <h2>Bienvenue chez Quincaillerie Prestige</h2> -->
+    <!-- <p>Depuis 1990, votre partenaire qualité pour tous vos travaux.</p> -->
+    <p>Depuis 2002, notre quincaillerie s'engage à fournir des produits de qualité, avec un service personnalisé et de proximité.</p>
+    <img src="Image/couverture.jpg" alt="Image de couverture">
+  </section>
+
+  <!-- <section>
+    <h2>Vidéo de présentation</h2>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/P5thU9T-aE8?si=Sz2P-LSQwWzwG_UV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/arMAAEG0EGc?si=lEvwDQe9x_mRPx6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+  <!-- </section> -->
+  <section id="video-presentation">
+    <h2>🎥 Vidéo de présentation</h2>
+    <p>Plongez dans l’univers de notre quincaillerie grâce à cette vidéo dynamique !</p>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/P5thU9T-aE8?si=Sz2P-LSQwWzwG_UV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+  
+
+
+  <section class="services">
+    <h3>Nos Services</h3>
+    <ul>
+      <li>Livraison à domicile</li>
+      <li>Assistance technique</li>
+      <li>Conseil personnalisé</li>
+      <li>Service après-vente</li>
+    </ul>
+  </section>
+
+  <section class="produits-phares">
+    <h3>Produits phares</h3>
+    <div class="grille">
+      <div class="carte-produit">
+        <img src="Image/outillage.webp" alt="Outillage">
+        <h3>Outillage</h3>
+        <p>Outils manuels et électriques de qualité professionnelle.</p>
+      </div>
+      <div class="carte-produit">
+        <img src="Image/plomberie.jpg" alt="Plomberie">
+        <h3>Plomberie</h3>
+        <p>Tuyaux, robinets et accessoires pour vos installations.</p>
+      </div>
+      <div class="carte-produit">
+        <img src="Image/electricite.jpg" alt="Électricité">
+        <h3>Électricité</h3>
+        <p>Interrupteurs, fils, prises et équipements électriques.</p>
+      </div>
+      <div class="carte-produit">
+        <img src="Image/peinture.jpg">
+        <h3>Peinture</h3>
+        <p>Peintures intérieures/extérieures et accessoires déco.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="avis">
+    <h3>Avis Clients</h3>
+    <div class="grille">
+      <div class="carte-avis">
+        <img src="Image/client1.jpg" alt="Client 1">
+        <blockquote>"Excellent accueil et très bons conseils pour mes travaux."</blockquote>
+        <cite>— Mme Diallo</cite>
+      </div>
+      <div class="carte-avis">
+        <img src="Image/client2.jpg" alt="Client 2">
+        <p>"Livraison rapide et produits top."</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Quincaillerie Prestige by Pape Seck</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+  
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+  
+</body>
+</html>
